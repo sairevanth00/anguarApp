@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: red;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgb(250, 239, 140);
+}
+/*button{
+    border:2px solid rgb(248, 183, 5);
+    padding: 8px;
+    background-color: antiquewhite;
+    height: 40px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    cursor: pointer;
+}*/

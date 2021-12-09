@@ -1,0 +1,5 @@
+<button (click)="displayTxt()"><b>Show/Hide Txt</b></button>
+<h1 *ngIf="trigger">Sai Revanth First React App</h1>
+<input type="checkbox" [(ngModel)]="abc"/> &nbsp;&nbsp; I accept Terms and Conditions...&nbsp;&nbsp; {{abc}}
+<br/>
+<button [disabled]="!abc" class="btn bg-secondary">Start App</button>
